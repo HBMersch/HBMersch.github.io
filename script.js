@@ -67,18 +67,18 @@ const trainingGroups = [
 const newsItems = [
   {
     date: "April 2026",
-    title: "Website-Relaunch auf GitHub Pages gestartet",
-    text: "Die neue Präsenz wird modular aufgebaut, damit Inhalte leichter gepflegt und später ohne WordPress erweitert werden können.",
+    title: "HB Mersch 75 mit neuem Online-Auftritt",
+    text: "Die Vereinswebsite zeigt aktuelle Informationen zu Spielbetrieb, Training und Clubleben in klarer Form.",
   },
   {
-    date: "Nächster Schritt",
-    title: "News, Galerie und Sponsoren separat aufbauen",
-    text: "Die Grundstruktur steht bewusst schlank. Redaktionelle Bereiche lassen sich jetzt gezielt als eigene Seiten oder Datenquellen ergänzen.",
+    date: "Verein",
+    title: "Spielbetrieb, Training und Clubinfos im Mittelpunkt",
+    text: "Auf den wichtigsten Seiten finden Mitglieder, Familien und Interessierte schnell den richtigen Einstieg in den Verein.",
   },
   {
     date: "Clubleben",
-    title: "Join-Us-Bereich für Nachwuchs und Ehrenamt",
-    text: "Ein klarer Einstieg für neue Spielerinnen, Spieler, Familien, Helfer und Partner ersetzt verschachtelte Inhalte der alten Seite.",
+    title: "Mitmachen bei HB Mersch 75",
+    text: "Neue Spielerinnen, Spieler, Helfer und Partner sind willkommen und können den Verein direkt kontaktieren.",
   },
 ];
 
