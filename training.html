@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training | Handball Club Mersch 75</title>
+    <meta
+      name="description"
+      content="Trainingszeiten und Gruppen des Handball Club Mersch 75 von U4 bis Senioren."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Zur Startseite">
+          <img class="brand-logo" src="assets/logo-main.png" alt="Logo Handball Club Mersch 75" />
+          <span class="brand-copy">
+            <strong>Handball Club Mersch</strong>
+            <small>Mersch, Luxemburg</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Hauptnavigation">
+          <a href="index.html">Home</a>
+          <a href="club.html">Club</a>
+          <a class="current" href="training.html">Training</a>
+          <a href="matchday.html">Matchday</a>
+          <a href="news.html">News</a>
+          <a href="galerie.html">Galerie</a>
+          <a href="contact.html">Kontakt</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section page-intro">
+          <div>
+            <p class="eyebrow">Training</p>
+            <h1>Gruppen, Zeiten und feste Wochenstruktur.</h1>
+          </div>
+          <p>
+            Diese Seite bündelt den Trainingsbereich separat, damit die Startseite nicht mit langen
+            Übersichten überfrachtet wird.
+          </p>
+        </section>
+
+        <section class="section">
+          <div class="summary-grid">
+            <article class="summary-card">
+              <span>Jugendkoordination</span>
+              <strong>Max Blanc und Louis Van der Weken</strong>
+              <p>Für Fragen zum Jugendbereich: max.hbm75@gmail.com oder telefonisch über den Verein.</p>
+            </article>
+            <article class="summary-card">
+              <span>Trainingsorte</span>
+              <strong>Omnisports Mersch und Hallen in Lintgen</strong>
+              <p>Die jeweiligen Orte stehen direkt in den Trainingskarten bei jeder Gruppe.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Trainingsgruppen</p>
+              <h2>Von Kidssports bis Herren und Frauen.</h2>
+            </div>
+            <p>
+              Die vorhandenen Trainingsdaten bleiben technisch zentral gepflegt und werden hier als
+              Karten gerendert.
+            </p>
+          </div>
+          <div id="training-grid" class="card-grid"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <img src="assets/logo-footer.png" alt="Handball Club Mersch 75 Wortmarke" />
+          <p>© <span id="year"></span> Handball Club Mersch 75</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="mailto:info@mersch75.lu">info@mersch75.lu</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
